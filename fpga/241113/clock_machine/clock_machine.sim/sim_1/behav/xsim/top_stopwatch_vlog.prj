@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../stopwatch_dot.srcs/sources_1/imports/sources_1/imports/new/button_detector.v" \
+"../../../../stopwatch_dot.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/fnd_controller.v" \
+"../../../../stopwatch_dot.srcs/sources_1/imports/sources_1/new/stopWatch_datapath.v" \
+"../../../../stopwatch_dot.srcs/sources_1/imports/sources_1/new/stopwatch_control_Unit.v" \
+"../../../../stopwatch_dot.srcs/sources_1/imports/sources_1/new/top_stopwatch.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
